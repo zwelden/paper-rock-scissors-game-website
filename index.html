@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Rock, Paper, Scissors</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 id="page-title">Paper, Rock, Scissors Game</h1>
+			<div class="choice-results">
+				<div class="comp-choice">
+					<h2> Computer Choice</h2>
+					<div class="comp-rock">
+						<h3>Rock</h3>
+						<img src="images/comp-rock.jpg">
+					</div>
+					<div class="comp-paper">
+						<h3>Paper</h3>
+						<img src="images/comp-paper.jpg">
+					</div>
+					<div class="comp-scissors">
+						<h3>Scissors</h3>
+						<img src="images/comp-scissors.jpg">
+					</div>
+				</div>
+
+				<div class="player-choice">
+					<h2>Player Choice</h2>
+					<div class="player-rock">
+						<h3>Rock</h3>
+						<img src="images/player-rock.jpg">
+					</div>
+					<div class="player-paper">
+						<h3>Paper</h3>
+						<img src="images/player-paper.jpg">
+					</div>
+					<div class="player-scissors">
+						<h3>Scissors</h3>
+						<img src="images/player-scissors.jpg">
+					</div>
+				</div>
+			</div>
+
+			<div class="clear-float">
+			</div>
+
+			<div class="prs-choice">
+				<div class="inputs">
+					<p> Pick your hand</p>
+					<select id="choose-prs">
+						<option value="rock">Rock</option>
+						<option value="paper">Paper</option>
+						<option value="scissors">Scissors</option>
+					</select>
+					<input type="submit" value="enter">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
